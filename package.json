@@ -1,0 +1,23 @@
+{
+  "name": "activity-db",
+  "version": "1.0.0",
+  "description": "activities in kongsberg with reviews",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TNT-EzClapz/activity-db.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TNT-EzClapz/activity-db/issues"
+  },
+  "homepage": "https://github.com/TNT-EzClapz/activity-db#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
