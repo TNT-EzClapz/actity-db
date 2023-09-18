@@ -1,0 +1,17 @@
+<button class="button" onclick="location.pathname = 'getting started.html'">Get Started</button>
+.button {
+    width: 170px;
+    height: 40px;
+    background-color: rgb(12,70,90);
+    border: none;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: system-ui;
+    border-radius: 10px;
+    transition-duration: 300ms;
+}
+
+.button:hover {
+    background-color: rgb(52,120,140);
+    }

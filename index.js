@@ -7,5 +7,5 @@ const fs = require("fs");
 app.use(express.static(path.join(__dirname, 'public'))); //Serves resources from public folder
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+  console.log(`activity database listening on port ${port}`)
 })

@@ -2,6 +2,7 @@ body {
     background-color: rgb(10, 10, 10);
     color: aliceblue;
     font-family: sans-serif;
+    overflow: hidden;
 }
 
 .content {
@@ -17,25 +18,24 @@ body {
     flex-direction: column;
 }
 
-.title {
-    margin: 0;
+#blob {
+    position: absolute;
+    z-index: -1;
 }
 
-.button {
-    width: 170px;
-    height: 40px;
-    background-color: rgb(12, 70, 90);
-    border: none;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    font-family: system-ui;
-    border-radius: 10px;
-    transition-duration: 300ms;
+.startname {
+    filter: blur(35px);
+    margin: -100px;
+    padding: 30px;
+    transition-duration: 700ms;
+
 }
 
-.button:hover {
-    background-color: rgb(52, 120, 140);
+.startname:hover {
+    cursor: pointer;
+    filter: blur(0);
+    margin: 10px;
+
 }
 
 .topnav {
@@ -60,7 +60,6 @@ body {
     color: #dbd6d0
 }
 
-
 .topnav a.active {
     color: #dbd6d0;
 }
@@ -73,6 +72,7 @@ img {
 .github {
     height: 22px;
     width: 30px;
+
 }
 
 .github:hover {
