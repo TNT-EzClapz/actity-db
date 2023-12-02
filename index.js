@@ -1,11 +1,7 @@
-const express = require('express')
-const path = require("path")
-const app = express()
-const port = 3000
-const fs = require("fs");
+const app = require("./app")
 
-app.use(express.static(path.join(__dirname, 'public'))); //Serves resources from public folder
+const port = process.env.PORT || 3000;
 
 app.listen(port, () => {
-  console.log(`activity database listening on port ${port}`)
-})
+    console.log(`Server is running on port ${port}`);
+});
