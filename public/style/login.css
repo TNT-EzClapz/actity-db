@@ -1,6 +1,4 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
@@ -27,9 +25,12 @@ h2 {
 }
 
 .form-container {
+  font-family:Arial, Helvetica, sans-serif;
   width: 300px;
   margin: 0 auto;
   padding: 20px;
+  border: 1px solid gray;
+  border-radius: 3px;
 }
 
 .form-group {
@@ -46,8 +47,6 @@ h2 {
   width: 100%;
   padding: 8px;
   font-size: 16px;
-  border: 1px solid gray;
-  border-radius: 3px;
 }
 .namelbl {
   color: white;
@@ -58,6 +57,7 @@ h2 {
 }
 
 .signup {
+  font-size: 14px;
   color: white;
   padding: 5px;
   text-align: center;

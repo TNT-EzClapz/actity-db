@@ -4,22 +4,38 @@ body {
     font-family: sans-serif;
 }
 
-.content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-
-    display: flex;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
 
 .title {
     margin: 0;
 }
+
+.header-container {
+    display: inline-block;
+    width: 25%;
+    margin-top: 55px;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   .content {
+    display: flex;
+    flex-direction: column;
+   }
+   
+   .item {
+    display: flex;
+    flex-direction: column;
+   }
+   
+   .item img {
+    display: inline-block;
+    vertical-align: bottom;
+   }
+   
+   .item p {
+    display: inline-block;
+    vertical-align: bottom;
+   }
 
 .button {
     width: 170px;
