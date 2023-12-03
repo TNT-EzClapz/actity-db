@@ -4,7 +4,7 @@ body {
     font-family: sans-serif;
 }
 
-.content {
+.contact {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -15,6 +15,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    font-size:x-large;
 }
 
 .title {
